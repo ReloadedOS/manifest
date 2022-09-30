@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="reloaded"
+          fetch="https://github.com/Reloaded-Temp"
+          revision="t" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="android_manifest" remote="reloaded" />
+
+</manifest>
