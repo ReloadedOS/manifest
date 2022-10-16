@@ -5,7 +5,83 @@
           fetch="https://github.com/Reloaded-Temp"
           revision="t" />
 
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="reloaded" />
+
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build_repo" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="device/qcom/common" />
+  <remove-project name="device/qcom/sepolicy" />
+  <remove-project name="device/qcom/sepolicy_vndr" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/vendor/nxp/opensource/halimpl" />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/qcom-opensource/power" />
+  <remove-project name="platform/vendor/qcom-opensource/usb" />
+  <remove-project name="platform/vendor/qcom-opensource/vibrator" />
+
+  <project path="bootable/recovery" name="bootable_recovery" remote="reloaded" />
+  <project path="build/make" name="build_make" remote="reloaded">
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project path="build/soong" name="build_soong" remote="reloaded">
+    <linkfile dest="Android.bp" src="root.bp"/>
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
+  </project>
+  <project path="device/qcom/common" name="device_qcom_common" remote="reloaded" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="reloaded" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="reloaded" />
+  <project path="frameworks/av" name="frameworks_av" remote="reloaded" />
+  <project path="frameworks/base" name="frameworks_base" remote="reloaded" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="reloaded" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="reloaded" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="reloaded" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="reloaded" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="reloaded" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="lineage-19.1" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="lineage-19.1" clone-depth="1" />
+  <project path="prebuilts/tools-extras" name="prebuilts_tools-extras" remote="reloaded" />
+  <project path="system/core" name="system_core" remote="reloaded" />
+  <project path="system/libhidl" name="system_libhidl" remote="reloaded" />
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="reloaded" />
+  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="reloaded" />
+  <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="reloaded" />
+  <project path="vendor/partner_gms" name="techyminati/vendor_partner-gms" remote="gitlab" revision="tiramisu" />
+  <project path="vendor/qcom/common" name="vendor_qcom_common" remote="reloaded" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="reloaded" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="reloaded" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="reloaded" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="reloaded" />
+  <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="reloaded" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="reloaded" />
+  <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="14" clone-depth="1" />
+  <project path="vendor/reloaded" name="vendor_reloaded" remote="reloaded" />
+
+  <!-- HALs -->
+  <project path="hardware/qcom/sm8150/audio" name="hardware_qcom_audio" remote="reloaded" revision="t-sm8150" />
+  <project path="hardware/qcom/sm8150/display" name="hardware_qcom_display" remote="reloaded" revision="t-sm8150" />
+  <project path="hardware/qcom/sm8150/gps" name="hardware_qcom_gps" remote="reloaded" revision="t-sm8150" />
+  <project path="hardware/qcom/sm8150/media" name="hardware_qcom_media" remote="reloaded" revision="t-sm8150" />
 
 </manifest>
