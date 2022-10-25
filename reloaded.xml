@@ -20,6 +20,7 @@
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="device/qcom/sepolicy_vndr" />
+  <remove-project name="device/qcom/vendor-common" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/hardware/interfaces" />
@@ -28,11 +29,14 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
+  <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
 
@@ -52,6 +56,7 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="reloaded" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="reloaded" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="reloaded" />
+  <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="reloaded" />
   <project path="frameworks/av" name="frameworks_av" remote="reloaded" />
   <project path="frameworks/base" name="frameworks_base" remote="reloaded" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="reloaded" />
@@ -64,11 +69,14 @@
   <project path="prebuilts/tools-extras" name="prebuilts_tools-extras" remote="reloaded" />
   <project path="system/core" name="system_core" remote="reloaded" />
   <project path="system/libhidl" name="system_libhidl" remote="reloaded" />
+  <project path="system/update_engine" name="system_update_engine" remote="reloaded" />
   <project path="tools/extract-utils" name="tools_extract-utils" remote="reloaded" />
   <project path="vendor/google/pixel" name="vendor_google_pixel" remote="reloaded" />
   <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="reloaded" />
   <project path="vendor/partner_gms" name="techyminati/vendor_partner-gms" remote="gitlab" revision="tiramisu" />
   <project path="vendor/qcom/common" name="vendor_qcom_common" remote="reloaded" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="reloaded" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="reloaded" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="reloaded" />
