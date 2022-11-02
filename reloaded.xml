@@ -61,6 +61,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="reloaded" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="reloaded" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="reloaded" />
+  <project path="packages/apps/ReloadedXtras" name="packages_apps_ReloadedXtras" remote="reloaded" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="reloaded" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="reloaded" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="reloaded" />
