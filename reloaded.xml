@@ -5,6 +5,10 @@
           fetch="https://github.com/Reloaded-Temp"
           revision="t" />
 
+  <remote name="reloaded-gitlab"
+          fetch="https://gitlab.com/reloadedcaf"
+          revision="t" />
+
   <remote name="github"
           fetch="https://github.com/" />
 
@@ -74,7 +78,7 @@
   <project path="tools/extract-utils" name="tools_extract-utils" remote="reloaded" />
   <project path="vendor/google/pixel" name="vendor_google_pixel" remote="reloaded" />
   <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="reloaded" />
-  <project path="vendor/partner_gms" name="techyminati/vendor_partner-gms" remote="gitlab" revision="tiramisu" />
+  <project path="vendor/partner_gms" name="vendor_partner-gms" remote="reloaded-gitlab" />
   <project path="vendor/qcom/common" name="vendor_qcom_common" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="reloaded" />
