@@ -30,6 +30,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/services/Telecomm" />
@@ -68,6 +69,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="reloaded" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="reloaded" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="reloaded" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="reloaded" />
   <project path="packages/apps/ReloadedXtras" name="packages_apps_ReloadedXtras" remote="reloaded" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="reloaded" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="reloaded" />
