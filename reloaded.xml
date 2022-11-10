@@ -18,35 +18,47 @@
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="reloaded" />
 
-  <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/build_repo" />
-  <remove-project name="platform/build/soong" />
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="device/qcom/sepolicy_vndr" />
   <remove-project name="device/qcom/vendor-common" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build_repo" />
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
-  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
 
+  <project path="art" name="art" remote="reloaded" />
+  <project path="bionic" name="bionic" remote="reloaded" />
   <project path="bootable/recovery" name="bootable_recovery" remote="reloaded" />
   <project path="build/make" name="build_make" remote="reloaded">
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -64,15 +76,24 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="reloaded" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="reloaded" />
   <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="reloaded" />
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="reloaded" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="reloaded" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="reloaded" />
+  <project path="external/sqlite" name="external_sqlite" remote="reloaded" />
+  <project path="external/zlib" name="external_zlib" remote="reloaded" />
   <project path="frameworks/av" name="frameworks_av" remote="reloaded" />
   <project path="frameworks/base" name="frameworks_base" remote="reloaded" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="reloaded" />
   <project path="frameworks/native" name="frameworks_native" remote="reloaded" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="reloaded" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="reloaded" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="reloaded" />
   <project path="packages/apps/ReloadedXtras" name="packages_apps_ReloadedXtras" remote="reloaded" />
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="reloaded" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="reloaded" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="reloaded" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="reloaded" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="reloaded" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="reloaded" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="lineage-19.1" clone-depth="1" />
@@ -86,10 +107,10 @@
   <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="reloaded" />
   <project path="vendor/partner_gms" name="vendor_partner-gms" remote="reloaded-gitlab" />
   <project path="vendor/qcom/common" name="vendor_qcom_common" remote="reloaded" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="reloaded" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="reloaded" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="reloaded" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="reloaded" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="reloaded" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="reloaded" />
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="reloaded" />
