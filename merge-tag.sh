@@ -14,7 +14,9 @@ end=$'\e[0m'
 REMOTE="reloaded"
 BRANCH="t"
 
-BLACKLIST="device/qcom/common"
+BLACKLIST="device/qcom/common \
+external/libjpeg-turbo \
+external/zlib"
 
 # verify tag
 if [ -z "$1" ]; then
