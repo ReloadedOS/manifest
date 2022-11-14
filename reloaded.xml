@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="reloaded"
-          fetch="https://github.com/Reloaded-Temp"
+          fetch="https://github.com/ReloadedOS"
           revision="t" />
 
   <remote name="reloaded-gitlab"
@@ -16,7 +16,7 @@
           fetch="https://gitlab.com/" />
 
   <!-- Manifest -->
-  <project path="manifest" name="android_manifest" remote="reloaded" />
+  <project path="manifest" name="manifest" remote="reloaded" />
 
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/sepolicy" />
