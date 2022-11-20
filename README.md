@@ -6,7 +6,7 @@ To get started with ReloadedOS, you'll need to [set up a Linux build environment
 
 To initialize the ReloadedOS sources locally, use a command like this:
 ```
- repo init -u https://github.com/Reloaded-Temp/manifest -b t
+ repo init -u https://github.com/ReloadedOS/manifest -b t
 ```
 
 Then to sync up:
