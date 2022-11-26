@@ -80,6 +80,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="reloaded" />
   <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="reloaded" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="reloaded" />
+  <project path="external/faceunlock"  name="external_faceunlock" remote="reloaded-gitlab" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="reloaded" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="reloaded" />
   <project path="external/mksh" name="external_mksh" remote="reloaded" />
@@ -92,6 +93,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="reloaded" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="reloaded" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="reloaded" />
+  <project path="packages/apps/faceunlockservice" name="packages_apps_faceunlockservice" remote="reloaded-gitlab" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="reloaded" />
   <project path="packages/apps/ReloadedXtras" name="packages_apps_ReloadedXtras" remote="reloaded" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
