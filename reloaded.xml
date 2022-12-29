@@ -81,7 +81,6 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="reloaded" />
   <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="reloaded" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="reloaded" />
-  <project path="external/faceunlock"  name="external_faceunlock" remote="reloaded-gitlab" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="reloaded" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="reloaded" />
   <project path="external/mksh" name="external_mksh" remote="reloaded" />
@@ -94,8 +93,8 @@
   <project path="frameworks/native" name="frameworks_native" remote="reloaded" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="reloaded" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="reloaded" />
-  <project path="packages/apps/faceunlockservice" name="packages_apps_faceunlockservice" remote="reloaded-gitlab" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="reloaded" />
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="reloaded" />
   <project path="packages/apps/ReloadedXtras" name="packages_apps_ReloadedXtras" remote="reloaded" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="reloaded" />
@@ -128,6 +127,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="reloaded" />
   <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="14" clone-depth="1" />
   <project path="vendor/reloaded" name="vendor_reloaded" remote="reloaded" />
+  <project path="vendor/reloaded/prebuilts" name="vendor_reloaded_prebuilts" remote="reloaded-gitlab" />
 
   <!-- HALs -->
   <project path="hardware/qcom/sm8150/audio" name="hardware_qcom_audio" remote="reloaded" revision="t-sm8150" />
