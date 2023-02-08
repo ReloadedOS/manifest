@@ -94,6 +94,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="reloaded" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="reloaded" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="reloaded" />
+  <project path="hardware/reloaded/compat" name="hardware_reloaded_compat" remote="reloaded" />
   <project path="packages/apps/faceunlockservice" name="packages_apps_faceunlockservice" remote="reloaded-gitlab" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="reloaded" />
   <project path="packages/apps/ReloadedXtras" name="packages_apps_ReloadedXtras" remote="reloaded" />
