@@ -53,7 +53,6 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
@@ -121,7 +120,6 @@
   <project path="vendor/partner_gms" name="vendor_partner-gms" remote="reloaded-gitlab" />
   <project path="vendor/qcom/common" name="vendor_qcom_common" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="reloaded" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_commonsys_fm" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="reloaded" />
