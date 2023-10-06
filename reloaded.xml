@@ -3,11 +3,11 @@
 
   <remote name="reloaded"
           fetch="https://github.com/ReloadedOS"
-          revision="t" />
+          revision="u" />
 
   <remote name="reloaded-gitlab"
           fetch="https://gitlab.com/reloadedcaf"
-          revision="t" />
+          revision="u" />
 
   <remote name="github"
           fetch="https://github.com/" />
