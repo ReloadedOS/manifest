@@ -28,6 +28,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build_repo" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/mksh" />
@@ -84,6 +85,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="reloaded" />
   <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="reloaded" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="reloaded" />
+  <project path="external/dtc" name="external_dtc" remote="reloaded" />
   <project path="external/faceunlock"  name="external_faceunlock" remote="reloaded-gitlab" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="reloaded" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="reloaded" />
