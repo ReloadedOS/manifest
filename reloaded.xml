@@ -19,7 +19,6 @@
   <project path="manifest" name="manifest" remote="reloaded" />
 
   <remove-project name="device/qcom/common" />
-  <remove-project name="device/qcom/sepolicy" />
   <remove-project name="device/qcom/sepolicy_vndr" />
   <remove-project name="device/qcom/vendor-common" />
   <remove-project name="platform/art" />
@@ -81,7 +80,6 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
   <project path="device/qcom/common" name="device_qcom_common" remote="reloaded" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="reloaded" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="reloaded" />
   <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="reloaded" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="reloaded" />
