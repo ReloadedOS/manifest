@@ -57,7 +57,6 @@
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
-  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
@@ -101,7 +100,6 @@
   <project path="hardware/reloaded/compat" name="hardware_reloaded_compat" remote="reloaded" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="reloaded" />
   <project path="packages/apps/ReloadedXtras" name="packages_apps_ReloadedXtras" remote="reloaded" />
-  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="reloaded" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="reloaded" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="reloaded" />
@@ -109,7 +107,6 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="reloaded" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="reloaded" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="reloaded" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="lineage-19.1" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="lineage-19.1" clone-depth="1" />
   <project path="prebuilts/tools-extras" name="prebuilts_tools-extras" remote="reloaded" />
   <project path="system/core" name="system_core" remote="reloaded" />
@@ -118,12 +115,10 @@
   <project path="system/update_engine" name="system_update_engine" remote="reloaded" />
   <project path="tools/extract-utils" name="tools_extract-utils" remote="reloaded" />
   <project path="vendor/google/pixel" name="vendor_google_pixel" remote="reloaded" />
-  <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="reloaded" />
   <project path="vendor/partner_gms" name="vendor_partner-gms" remote="reloaded-gitlab" />
   <project path="vendor/qcom/common" name="vendor_qcom_common" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="reloaded" />
-  <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_commonsys_fm" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="vendor_qcom_opensource_commonsys-intf_wfd" remote="reloaded" />
