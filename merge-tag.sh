@@ -12,7 +12,7 @@ blu=$'\e[1;34m'
 end=$'\e[0m'
 
 REMOTE="reloaded"
-BRANCH="t"
+BRANCH="u"
 
 BLACKLIST="device/qcom/common \
 external/zlib"
