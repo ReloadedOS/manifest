@@ -28,7 +28,6 @@
   <remove-project name="platform/build_repo" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/dtc" />
-  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
@@ -82,7 +81,6 @@
   <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="reloaded" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="reloaded" />
   <project path="external/dtc" name="external_dtc" remote="reloaded" />
-  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="reloaded" />
   <project path="external/mksh" name="external_mksh" remote="reloaded" />
   <project path="external/sqlite" name="external_sqlite" remote="reloaded" />
   <project path="external/tinycompress" name="external_tinycompress" remote="reloaded" />

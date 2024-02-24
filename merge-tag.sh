@@ -15,7 +15,6 @@ REMOTE="reloaded"
 BRANCH="t"
 
 BLACKLIST="device/qcom/common \
-external/libjpeg-turbo \
 external/zlib"
 
 # verify tag
