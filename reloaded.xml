@@ -53,6 +53,7 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
@@ -118,6 +119,7 @@
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="reloaded" />
   <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="vendor_qcom_opensource_commonsys-intf_wfd" remote="reloaded" />
+  <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom-opensource_core-utils" remote="reloaded" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="reloaded" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="reloaded" revision="u-legacy" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="reloaded" />
