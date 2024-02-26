@@ -60,6 +60,7 @@
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
+  <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
