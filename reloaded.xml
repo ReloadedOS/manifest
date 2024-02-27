@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          sync-c="true"
+          sync-tags="false"
+          review="https://android-review.googlesource.com/"
+          revision="refs/tags/android-14.0.0_r27" />
+
   <remote name="reloaded"
           fetch="https://github.com/ReloadedOS"
           revision="u" />
@@ -118,6 +125,7 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="reloaded" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="reloaded" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="lineage-19.1" clone-depth="1" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" remote="aosp" clone-depth="1" revision="refs/tags/android-14.0.0_r0.44" />
   <project path="prebuilts/tools-extras" name="prebuilts_tools-extras" remote="reloaded" />
   <project path="system/core" name="system_core" remote="reloaded" />
   <project path="system/libhidl" name="system_libhidl" remote="reloaded" />
