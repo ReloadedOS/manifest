@@ -146,7 +146,7 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="reloaded" />
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="reloaded" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="reloaded" />
-  <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="14" clone-depth="1" />
+  <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="disabled" clone-depth="1" />
   <project path="vendor/reloaded" name="vendor_reloaded" remote="reloaded" />
   <project path="vendor/reloaded/certification" name="vendor_reloaded_certification" remote="reloaded-gitea" />
 
