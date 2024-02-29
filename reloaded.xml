@@ -70,6 +70,7 @@
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
@@ -141,6 +142,7 @@
   <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom-opensource_core-utils" remote="reloaded" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="reloaded" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="reloaded" revision="u-legacy" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom-opensource_dataservices" remote="reloaded" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="reloaded" />
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="reloaded" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="reloaded" />
